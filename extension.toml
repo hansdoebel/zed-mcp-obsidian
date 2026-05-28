@@ -1,0 +1,10 @@
+id = "obsidian-mcp"
+name = "Obsidian MCP Server"
+version = "0.2.0"
+schema_version = 1
+authors = ["Hans Doebel <hansdev@mailbox.org>"]
+description = "Obsidian MCP Server for Zed"
+repository = "https://github.com/hansdoebel/zed-mcp-obsidian"
+
+[context_servers.obsidian-mcp]
+name = "Obsidian MCP Server"

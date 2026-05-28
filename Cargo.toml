@@ -1,0 +1,16 @@
+[package]
+name = "obsidian_mcp"
+version = "0.2.0"
+edition = "2021"
+description = "Obsidian MCP Server for Zed"
+license = "MIT"
+publish = false
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+zed_extension_api = "0.7.0"
+serde = "1.0"
+schemars = "0.8"

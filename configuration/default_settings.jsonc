@@ -1,0 +1,15 @@
+{
+  "default_vault": "personal",
+  "vaults": {
+    "personal": {
+      "api_key": "",
+      "host": "127.0.0.1",
+      "port": "27124",
+      "protocol": "https"
+    }
+    // ,"work": {
+    //   "api_key": "",
+    //   "port": "27125"
+    // }
+  }
+}
